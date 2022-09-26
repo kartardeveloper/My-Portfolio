@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+:root {
+  --light-background-color: #f3f3f3;
+  --light-text-color: #4c4f65;
+  --button-color: #f06449;
+  --button-hover-color: #1b2e63;
+  --button-gradient-hover-color: linear-gradient(270deg, #235aa6, #101b3b);
+  --white-color: #fff;
+  --black-color: #000;
+  --heading-text-color: #4a4a4a;
+  --heading-font: "Montserrat", sans-serif;
+  --subheading-text-color: #f06449;
+  --sub-heading-font: "Montserrat", sans-serif;
+  --footer-color: #1c1d25;
+  --page-width: 1240px;
+  --text-font: "Nunito Sans", sans-serif;
+  --button-transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+body {
+  background: var(--light-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+p,
+a,
+span,
+strong {
+  font-family: var(--text-font);
+  font-size: 1.6rem;
+}
+
+a {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page-width {
+  max-width: var(--page-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.object-fit-contain {
+  object-fit: contain;
+}
+
+button,
+.button {
+  color: var(--white-color);
+  background-color: var(--button-color);
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+button::before,
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: var(--button-gradient-hover-color);
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: var(--button-transition);
+}
+
+button:hover::before,
+.button:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.underlined__link {
+  position: relative;
+}
+
+.underlined__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: var(--button-color);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: var(--button-transition);
+}
+
+.underlined__link:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  background: var(--button-gradient-hover-color);
+}

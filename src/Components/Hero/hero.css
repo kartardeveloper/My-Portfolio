@@ -1,0 +1,33 @@
+.hero {
+  position: relative;
+}
+
+.hero_content {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-40%);
+}
+
+.hero .hero_heading {
+  font-size: 6rem;
+  color: var(--light-text-color);
+  margin-bottom: 2rem;
+}
+
+.hero .hero_description {
+  color: var(--light-text-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.hero .hero__logo {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: -1;
+  transform: translateY(-40%);
+  width: 250px;
+  height: 250px;
+}

@@ -1,0 +1,25 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-header .site-logo__wrapper {
+  width: 60px;
+  height: 60px;
+}
+
+.site-header .site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 30px;
+}
+
+.site-header .site-nav__list-item-link {
+  color: var(--light-text-color);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
