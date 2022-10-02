@@ -1,0 +1,37 @@
+[
+  {
+    "imageSrc": "./Images/Social/linkedin.png",
+    "altText": "Kartar Singh LinkedIn",
+    "url": "https://www.linkedin.com/in/kartar-singh-557277228/"
+  },
+  {
+    "imageSrc": "./Images/Social/twitter.png",
+    "altText": "Kartar Singh Twitter",
+    "url": "https://twitter.com/kartarsohal001"
+  },
+  {
+    "imageSrc": "./Images/Social/github.png",
+    "altText": "Kartar Singh GitHub",
+    "url": "https://github.com/kartarsohal"
+  },
+  {
+    "imageSrc": "./Images/Social/codepen.png",
+    "altText": "Kartar Singh Codepen",
+    "url": "#"
+  },
+  {
+    "imageSrc": "./Images/Social/frontend-mentor.png",
+    "altText": "Kartar Singh Frontend Mentor",
+    "url": "https://www.frontendmentor.io/profile/kartarsohal"
+  },
+  {
+    "imageSrc": "./Images/Social/facebook.png",
+    "altText": "Kartar Singh Facebook",
+    "url": "#"
+  },
+  {
+    "imageSrc": "./Images/Social/instagram.png",
+    "altText": "Kartar Singh Instagram",
+    "url": "https://www.instagram.com/its_kartarsingh/"
+  }
+]

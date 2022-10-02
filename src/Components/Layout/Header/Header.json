@@ -1,0 +1,22 @@
+{
+  "logo": "./Images/k-dark-blue.png",
+  "heroLogo": "./Images/k-light-blue.png",
+  "navItems": [
+    {
+      "id": 1,
+      "navItem": "Case Studies"
+    },
+    {
+      "id": 2,
+      "navItem": "Experiments"
+    },
+    {
+      "id": 3,
+      "navItem": "About"
+    },
+    {
+      "id": 4,
+      "navItem": "Contact"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "heading": "Latest Works",
+  "subheading": "Case Studies",
+  "projects": [
+    {
+      "id": "01",
+      "title": "MNTN Landing Page",
+      "description": "Get out there & discover your next slope, mountain & destination!",
+      "button_text": "Case Study",
+      "image": "./Images/ProjectImages/mntn-landing-page.jpg"
+    },
+    {
+      "id": "02",
+      "title": "Crowd Funding",
+      "description": "A beautiful & hancrafted monitor stand to reduce neck and eye strain.",
+      "button_text": "Case Study",
+      "image": "./Images/ProjectImages/crowd-funding.jpg"
+    },
+    {
+      "id": "03",
+      "title": "Loopstudios Landing Page",
+      "description": "The leader in interactive VR.",
+      "button_text": "Case Study",
+      "image": "./Images/ProjectImages/loopstudios-landing-page.jpg"
+    },
+    {
+      "id": "04",
+      "title": "uHost",
+      "description": "We prepared the best web hosting plan for you to start.",
+      "button_text": "Case Study",
+      "image": "./Images/ProjectImages/uhost.jpg"
+    },
+    {
+      "id": "05",
+      "title": "Galleria React App",
+      "description": "Responsive gallery for viewing images and videos in a secure and simple manner.",
+      "button_text": "Case Study",
+      "image": "./Images/ProjectImages/galleria-react-app.png"
+    }
+  ]
+}

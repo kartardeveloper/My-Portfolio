@@ -1,3 +1,8 @@
+.hero__wrapper {
+  position: relative;
+  background: var(--light-background-color);
+}
+
 .hero {
   position: relative;
 }
@@ -7,6 +12,7 @@
   top: 40%;
   left: 0;
   transform: translateY(-40%);
+  z-index: 2;
 }
 
 .hero .hero_heading {
@@ -25,8 +31,8 @@
 .hero .hero__logo {
   position: absolute;
   top: 40%;
-  left: 40%;
-  z-index: -1;
+  left: 38%;
+  z-index: 1;
   transform: translateY(-40%);
   width: 250px;
   height: 250px;

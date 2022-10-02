@@ -1,0 +1,34 @@
+[
+  {
+    "title": "atom",
+    "imageSrc": "./Images/Shapes/atom.png"
+  },
+  {
+    "title": "circle",
+    "imageSrc": "./Images/Shapes/circle.png"
+  },
+  {
+    "title": "codepen",
+    "imageSrc": "./Images/Shapes/codepen.png"
+  },
+  {
+    "title": "coding",
+    "imageSrc": "./Images/Shapes/coding.png"
+  },
+  {
+    "title": "diagonal-line",
+    "imageSrc": "./Images/Shapes/diagonal-line.png"
+  },
+  {
+    "title": "enso",
+    "imageSrc": "./Images/Shapes/enso.png"
+  },
+  {
+    "title": "half-circle",
+    "imageSrc": "./Images/Shapes/half-circle.png"
+  },
+  {
+    "title": "hexagons",
+    "imageSrc": "./Images/Shapes/hexagons.png"
+  }
+]

@@ -1,17 +1,16 @@
 import { React, useEffect, useRef, useState } from "react";
 import Hero from "../Components/Hero/Hero";
 import Header from "../Components/Layout/Header/Header";
+import ProjectsList from "../Components/ProjectsList/ProjectsList";
 import SocialWidget from "../Components/SoicalWidget/SocialWidget";
 
 const Home = () => {
-  const [headerHeight, setHeaderHeight] = useState(100);
+  const [headerHeight, setHeaderHeight] = useState(90);
 
-  const myRef = useRef(100);
+  const myRef = useRef(90);
 
   const updateHeightState = () => {
-    window.addEventListener("resize", () => {
-      setHeaderHeight(myRef.current.offsetHeight);
-    });
+    setHeaderHeight(myRef.current.offsetHeight);
   };
 
   useEffect(() => {
@@ -23,6 +22,7 @@ const Home = () => {
       <Header myRef={myRef}></Header>
       <SocialWidget></SocialWidget>
       <Hero headerHeight={headerHeight}></Hero>
+      <ProjectsList></ProjectsList>
     </div>
   );
 };
